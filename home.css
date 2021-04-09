@@ -1,0 +1,59 @@
+/* element {
+    instruct: define
+} */
+
+body {
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navigation__link {
+  display: flex;
+}
+
+.navigation__linkItem {
+  margin-right: 1rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.title {
+  text-align: center;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.dogCategory {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.dogCategory__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dogCategory__item:hover {
+  background-color: #eeeeee;
+}
+
+.dogCategory__itemImage {
+  height: 75%;
+  width: 75%;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.dogCategory__itemName {
+  font-size: 1.5rem;
+}
