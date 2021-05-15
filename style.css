@@ -28,7 +28,20 @@ nav ul li{
     display: inline-block;
     margin-right: 20x;
 }
- 
-ul li{
+/*  
+ul, li{
     float: right;
+} */
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
 }
