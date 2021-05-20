@@ -25,7 +25,7 @@
           <!-- navbar  -->
           <nav>
             <!-- nav links  -->
-            <ul class="navbar_links">
+            <ul class="navbar_links" id="MenuItems">
               <li class="navbar_linkItem"><a href="">Home</a></li>
               <li class="navbar_linkItem"><a href="">Products</a></li>
               <li class="navbar_linkItem"><a href="">About</a></li>
@@ -36,7 +36,7 @@
           <!-- cart  -->
           <img src="images/hassan.jpg" width="30px" height="30px" />
           <!-- humbuger menu  -->
-          <img src="./images/hassan.jpg" class="menu-icon">
+          <img src="./images/hassan.jpg" class="menu-icon" onclick="menutoggle()">
         </div>
         <!-- landing section  -->
         <div class="row">
@@ -422,4 +422,20 @@
       </div>
     </div>
   </body>
+  <!-- js for toggle menu  -->
+  <script>
+    // getting the html element 
+    var MenuItems = document.getElementById('MenuItems');
+
+    MenuItems.style.maxHeight = '0px';
+
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == '0px'){
+        MenuItems.style.maxHeight = '200px';
+      }
+      else{
+        MenuItems.style.maxHeight = '0px';
+      }
+    }
+  </script>
 </html>
