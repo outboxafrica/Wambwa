@@ -276,8 +276,19 @@ small {
 }
 
 
-.footer-col-1, .footer-col-4{
+.footer-col-3, .footer-col-4{
   flex-basis: 12%;
   text-align: center;
 }
 
+ul{
+  list-style-type: none;
+}
+
+.app-logo{
+  margin-top: 20px;
+}
+
+.app-logo img{
+  width: 140px ;
+}
