@@ -31,6 +31,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 20x;
+  padding-right: 20px;
 }
 
 a {
@@ -57,13 +58,13 @@ p {
 }
 
 .col-2 {
-  flex-basis: 50%;
+  flex-basis: 40%;
   min-width: 300px;
 }
 
 .col-2 img {
   max-width: 100%;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 .col-2 h1 {
@@ -120,6 +121,7 @@ p {
   padding: 10px;
   min-width: 200px;
   margin-bottom: 50px;
+  transition: transform 0.5s;
 }
 
 .col-4 img{
@@ -154,10 +156,10 @@ h4{
     font-size: 14px; 
 }
 
-.rating{
+.rating .fa{
     color: #ff523b;
 }
 
 .col-4:hover{
-    transform: translateY(-5);
+    transform: translateY(-5px);
 }
