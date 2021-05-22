@@ -48,7 +48,7 @@ p {
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
-  background: radial-gradient(#fff, #E7EAF1);
+  background: radial-gradient(#fff, #ABB8C1);
 }
 
 .row {
@@ -89,7 +89,7 @@ p {
 }
 
 .header {
-  background: radial-gradient(#fff, #E7EAF1);
+  background: radial-gradient(#fff, #ABB8C1);
 }
 
 .header .row {
