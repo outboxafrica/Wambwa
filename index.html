@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="home.css"> -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font-awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Wambwa | Online shopd for dogs</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="header">
+      <div class="container" >
+        <div class="navbar">
+          <!-- logo  -->
+          <div class="navbar_logo">
+            <h1>WAMBWA</h1>
+          </div>
+          <!-- navbar  -->
+          <nav>
+            <!-- nav links  -->
+            <ul class="navbar_links" id="MenuItems">
+              <li class="navbar_linkItem"><a href="">Home</a></li>
+              <li class="navbar_linkItem"><a href="">Products</a></li>
+              <li class="navbar_linkItem"><a href="">About</a></li>
+              <li class="navbar_linkItem"><a href="">Contact</a></li>
+              <li class="navbar_linkItem"><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <!-- cart  -->
+          <img src="images/basket.jpeg" width="30px" height="30px" />
+          <!-- humbuger menu  -->
+          <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <!-- landing section  -->
+        <div class="row">
+          <!-- left col  -->
+          <div class="col-2">
+            <h1>
+              Give Your Mood <br />
+              A New Style
+            </h1>
+            <p>
+              Happiness isnt always about having all you need. It's about having
+              the right company and friends.
+              <br />
+              Get yourself a <b>pet</b> today. Happiness will come.
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <!-- right col   -->
+          <div class="col-2">
+            <img src="./images/2.jpg"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured category section  -->
+
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/9.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/8.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/10.jpg" />
+          </div>
+        </div>
+      </div>
+      <!-- row  -->
+    </div>
+
+    <!-- featured products  -->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <!-- row  -->
+      <div class="row">
+        <!-- product 1  -->
+        <div class="col-4">
+          <img src="images/4.jpg" />
+          <h4>Jessica</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 2  -->
+        <div class="col-4">
+          <img src="images/1.jpg" />
+          <h4>Lucy</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 3  -->
+        <div class="col-4">
+          <img src="images/6.jpg" />
+          <h4>Tom</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 4  -->
+        <div class="col-4">
+          <img src="images/12.jpg" />
+          <h4>Bob</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+      </div>
+
+      <!-- latest products  -->
+      <h2 class="title">Latest Products</h2>
+      <!-- row  -->
+      <div class="row">
+        <!-- product 1  -->
+        <div class="col-4">
+          <img src="images/5.jpg" />
+          <h4>Tommy</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 2  -->
+        <div class="col-4">
+          <img src="images/2.jpg" />
+          <h4>Tobby</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 3  -->
+        <div class="col-4">
+          <img src="images/7.jpg" />
+          <h4>Tammy</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 4  -->
+        <div class="col-4">
+          <img src="images/9.jpg" />
+          <h4>Tom</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+      </div>
+      <!-- row  -->
+      <div class="row">
+        <!-- product 1  -->
+        <div class="col-4">
+          <img src="images/10.jpg" />
+          <h4>Tommy</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 2  -->
+        <div class="col-4">
+          <img src="images/13.jpg" />
+          <h4>Tammy</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 3  -->
+        <div class="col-4">
+          <img src="images/12.jpg" />
+          <h4>Tobby</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+        <!-- product 4  -->
+        <div class="col-4">
+          <img src="images/8.jpg" />
+          <h4>Tom</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Shs.50.000</p>
+        </div>
+      </div>
+    </div>
+    <!-- offer  -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="./images/1.jpg" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Availbale on Wambwa</p>
+            <h1>Lucy the Pet</h1>
+            <small
+              >Lucy is a 5 year old puppy. She loves to cuddle and play with her friends. she always dresses to kill. her favourite dish is mild cereal mixed with cheese. </small
+            >
+            <br /><a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonial  -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <!-- testimonial 1  -->
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply a dumy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <!-- icons  -->
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <!-- user image  -->
+            <img src="./images/testimonial_2.jpeg" alt="" />
+            <h3>Sean Parker</h3>
+          </div>
+          <!-- testimonial 2  -->
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply a dumy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <!-- icons  -->
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <!-- user image  -->
+            <img src="./images/testimonial_2.jpeg" alt="" />
+            <h3>Sean parker</h3>
+          </div>
+          <!-- testimonial 3  -->
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply a dumy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <!-- icons  -->
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <!-- user image  -->
+            <img src="./images/testimonial_2.jpeg" alt="" />
+            <h3>Mabel Joe</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- brands/logos  -->
+    <div class="brands">
+      <div class="small-container">
+        <!-- row  -->
+        <div class="row">
+          <!-- outbox -->
+          <div class="col-5">
+            <img src="./images/outbox.jpeg" alt="" />
+          </div>
+          <!-- edu -->
+          <div class="col-5">
+            <img src="./images/nssf.png" alt="" />
+          </div>
+          <!-- google  -->
+          <div class="col-5">
+            <img src="./images/drug_dash.png" alt="" />
+          </div>
+          <!-- coca cola -->
+          <div class="col-5">
+            <img src="./images/stripe.png" alt="" />
+          </div>
+          <!-- flutter wave  -->
+          <div class="col-5">
+            <img src="./images/google_for-startups.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer  -->
+    <div class="footer">
+      <div class="footer-container">
+        <!-- row  -->
+        <div class="footer-row">
+          <!-- col 1  -->
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Andriod and ios mobile phone.</p>
+            <!-- app store logos  -->
+            <div class="app-logo">
+              <!-- play store  -->
+              <img src="./images/google_playstore.png">
+              <!-- app store  -->
+              <img src="./images/appstore.png">
+            </div>
+          </div>
+          <!-- col 2  -->
+          <div class="footer-col-2">
+             <!-- logo  -->
+          
+            <h1>WAMBWA</h1>
+         
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benefits of True
+              Happiness Accessible to the Many. Get your pet from <a href="./home.html">WAMBWA</a> today !!!
+            </p>
+          </div>
+          <!-- col 3 -->
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <!-- col 4  -->
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/hassanbahatimukisa/">LinkedIn</a></li>
+              <li><a href="https://twitter.com/HassanBahatiM">Twitter</a></li>
+              <li><a href="https://github.com/HassanBahati">Github</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- hr  -->
+        <hr> 
+        <!-- copyright  -->
+        <p class="copyright">Copyright 2021 - Hassan Bahati c/o Outbox Uganda</p>
+        <!-- copyright for images  -->
+        <p class="copyright">All Images &copy; <a href="https://unsplash.com/">unsplash.com</a></p>
+      </div>
+    </div>
+  </body>
+  <!-- js for toggle menu  -->
+  <script>
+    // getting the html element 
+    var MenuItems = document.getElementById('MenuItems');
+
+    MenuItems.style.maxHeight = '0px';
+
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == '0px'){
+        MenuItems.style.maxHeight = '200px';
+      }
+      else{
+        MenuItems.style.maxHeight = '0px';
+      }
+    }
+  </script>
+</html>
